@@ -40,5 +40,5 @@ Example
 xsltproc nmap.xml -o nmap.html
 firefox nmap.html
 ```
-This will perform a comprehensive Nmap scan on the IP address 192.168.1.1 and save the results to nmap.xml.
+This will perform a comprehensive Nmap scan on the IP address 192.168.1.1 .
 
