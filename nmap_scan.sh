@@ -22,5 +22,5 @@ fi
 sudo nmap -p$ports -sC -sV -A $IP -oA nmap
 
 # Print the location of the output file
-echo "Nmap scan results saved to nmap.xml"
+echo "Nmap scan results saved to nmap"
 
