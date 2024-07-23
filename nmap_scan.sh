@@ -19,7 +19,7 @@ if [ -z "$ports" ]; then
 fi
 
 # Run the detailed Nmap scan with the found ports
-sudo nmap -p$ports -sC -sV -A $IP -oX nmap.xml
+sudo nmap -p$ports -sC -sV -A $IP -oA nmap
 
 # Print the location of the output file
 echo "Nmap scan results saved to nmap.xml"
